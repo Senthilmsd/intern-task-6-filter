@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Image Gallery | CodingNepal</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="Show all">Show All</span>
+        <span class="item" data-name="running shoe">RUNNING</span>
+        <span class="item" data-name="casual shoe">CASUAL</span>
+        <span class="item" data-name="leather shoe">leather</span>
+      </div>
+    </nav>
+    <div class="gallery">
+      
+      <div class="image" data-name="running shoe"><span><img src="c:\Users\Lenovo\Downloads\runningshoe1.jpg" alt=""></span></div>
+      <div class="image" data-name="running shoe"><span><img src="c:\Users\Lenovo\Downloads\runningshoe2.png" alt=""></span></div>
+      <div class="image" data-name="running shoe"><span><img src="c:\Users\Lenovo\Downloads\runningshoe3.png" alt=""></span></div>
+      <div class="image" data-name="casual shoe"><span><img src="c:\Users\Lenovo\Downloads\casualshoe1.png" alt=""></span></div>
+      <div class="image" data-name="casual shoe"><span><img src="c:\Users\Lenovo\Downloads\casualshoe2.png" alt=""></span></div>
+      <div class="image" data-name="casual shoe"><span><img src="c:\Users\Lenovo\Downloads\casualshoe3.png" alt=""></span></div>
+      <div class="image" data-name="leather shoe"><span><img src="c:\Users\Lenovo\Downloads\leathershoe1.png" alt=""></span></div>
+      <div class="image" data-name="leather shoe"><span><img src="c:\Users\Lenovo\Downloads\leathershoe2.png" alt=""></span></div>
+    </div>
+  </div>
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
